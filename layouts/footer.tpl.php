@@ -43,7 +43,7 @@
                     <hr class="mb-20">
                     <div class="row">
                       <div class="col-md-8">
-                        <span class="copy-text">&copy; 2018 Aplikasi <a style="color: #fff;font-weight: bold;" target="_blank" href="https://github.com/OpenSID/OpenSID">OpenSID <?php echo AmbilVersi()?></a> &nbsp; | &nbsp;  Themes <a style="color: #fff;font-weight: bold;" href="https://github.com/orapakat/ODC-THEMES" target="_blank">ODC 18.06.1</a> &nbsp; | &nbsp; Partner of <a style="color: #fff;font-weight: bold;" href="https://kominfo.tubankab.go.id" target="_blank"> Diskominfo Kab.Tuban</a></span>
+                        <span class="copy-text">&copy; 2018 Aplikasi <a style="color: #fff;font-weight: bold;" target="_blank" href="https://github.com/OpenSID/OpenSID">OpenSID <?php echo AmbilVersi()?></a> &nbsp; | &nbsp;  Themes <a style="color: #fff;font-weight: bold;" href="https://github.com/orapakat/ODC-THEMES" target="_blank">ODC 18.07.01</a> &nbsp; | &nbsp; Partner of <a style="color: #fff;font-weight: bold;" href="https://kominfo.tubankab.go.id" target="_blank"> Diskominfo Kab.Tuban</a></span>
                       </div><!-- /.col-md-6 -->
                       <div class="col-md-4">
                           <ul class="social-link tt-animate ltr">
