@@ -1,4 +1,4 @@
-<?php  if(!defined('BASEPATH')) exit('No direct script access allowed'); ?> 
+<?php  if(!defined('BASEPATH')) exit('No direct script access allowed'); ?>
        <!--footer 3 start -->
         <footer class="footer footer-three">
             <div class="primary-footer brand-bg">
@@ -43,14 +43,14 @@
                     <hr class="mb-20">
                     <div class="row">
                       <div class="col-md-8">
-                        <span class="copy-text">&copy; 2018 Aplikasi <a style="color: #fff;font-weight: bold;" target="_blank" href="https://github.com/OpenSID/OpenSID">OpenSID <?php echo AmbilVersi()?></a> &nbsp; | &nbsp;  Themes <a style="color: #fff;font-weight: bold;" href="https://orapakat.com" target="_blank">ODC 18.06.1</a> &nbsp; | &nbsp; Partner of <a style="color: #fff;font-weight: bold;" href="https://kominfo.tubankab.go.id" target="_blank"> Diskominfo Kab.Tuban</a></span>
+                        <span class="copy-text">&copy; 2018 Aplikasi <a style="color: #fff;font-weight: bold;" target="_blank" href="https://github.com/OpenSID/OpenSID">OpenSID <?php echo AmbilVersi()?></a> &nbsp; | &nbsp;  Themes <a style="color: #fff;font-weight: bold;" href="https://github.com/orapakat/ODC-THEMES" target="_blank">ODC 18.06.1</a> &nbsp; | &nbsp; Partner of <a style="color: #fff;font-weight: bold;" href="https://kominfo.tubankab.go.id" target="_blank"> Diskominfo Kab.Tuban</a></span>
                       </div><!-- /.col-md-6 -->
                       <div class="col-md-4">
                           <ul class="social-link tt-animate ltr">
                           <?php
                             $SQLSosmed = "SELECT CASE WHEN gambar = 'fb.png' THEN 'fa-facebook' WHEN gambar = 'twt.png' THEN 'fa-twitter' WHEN gambar = 'goo.png' THEN 'fa-google-plus' WHEN gambar = 'yb.png' THEN 'fa-youtube' ELSE 'fa-instagram' END AS icon,media_sosial.* FROM media_sosial ORDER BY nama ASC";
-                                  $sosmed = $this->db->query($SQLSosmed); 
-                            foreach($sosmed->result() as $num => $datasos): 
+                                  $sosmed = $this->db->query($SQLSosmed);
+                            foreach($sosmed->result() as $num => $datasos):
                           ?>
                             <li><a href="<?php echo $datasos->link; ?>" title="<?php echo $datasos->nama; ?>" target="_blank"><i class="fa <?php echo $datasos->icon; ?>"></i></a></li>
                           <?php endforeach; ?>
