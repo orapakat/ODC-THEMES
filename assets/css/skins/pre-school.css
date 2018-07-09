@@ -1,0 +1,25 @@
+/******************************************
+	File Name: pre-school.css
+    Template Name: materialize
+    Created By: TrendyTheme
+    Envato Profile: https://themeforest.net/user/trendytheme
+    Website: http://trendytheme.net
+    Version: 1.3
+    Support: http://trendytheme.net/support
+******************************************/
+
+
+
+
+/*
+Background banner images
+------------------------------------------------------------*/
+.pre-banner-1 {
+    background-image: url("../../img/pre-school/pre-banner-1.jpg");  
+}
+.pre-banner-2 {
+    background-image: url("../../img/pre-school/pre-banner-2.jpg");
+}
+.pre-banner-3 {
+    background-image: url("../../img/pre-school/pre-banner-3.jpg");  
+}

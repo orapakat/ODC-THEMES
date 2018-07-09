@@ -1,0 +1,4 @@
+- Penambahan Form Login layanan mandiri di menu utama.
+- preload (loading pages) sudah sesuai masing-masing logo desa instalasi.
+- design menu kategori (menu dinamis) menjadi dropdown.
+- penambahan meta header (description,image, dll.) untuk share website.
