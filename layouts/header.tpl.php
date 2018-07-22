@@ -75,6 +75,7 @@
                                     <?php
                                       if(isset($_SESSION['mandiri']) AND $_SESSION['mandiri']==-1){
                                         echo "<script>alert('NIK atau PIN yang anda masukkan salah')</script>";
+                                        unset($_SESSION['mandiri']);      
                                       }
                                     ?>
                                   </li>
