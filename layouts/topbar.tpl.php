@@ -52,7 +52,7 @@
                   <li class="mr-20">
                     <a><i class="material-icons mr-10">&#xE0B9;</i> <?php echo $desa['email_desa']; ?></a>
                   </li>
-                  <?php if (empty($desa['telepon'])) { ?>
+                  <?php if (!empty($desa['telepon'])) { ?>
                     <li>
                       <a><i class="material-icons mr-10">&#xE0CD;</i> <?php echo $desa['telepon']; ?></a>
                     </li>
