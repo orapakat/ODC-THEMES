@@ -89,6 +89,61 @@
                           </footer>
 
                         </article><!-- /.post-wrapper -->
+			      
+			<article class="post-wrapper">
+
+                          <div class="entry-content">
+                            <div class="row">
+                            <?php	if($single_artikel['dokumen']!='' and is_file(LOKASI_DOKUMEN.$single_artikel['dokumen'])): ?>
+                              <div class="col-md-12">
+                                <center>
+                                  <a class="waves-effect waves-light btn" href="<?php echo base_url().LOKASI_DOKUMEN.$single_artikel['dokumen']?>" title=""><i class="fa fa-download"></i> Lampiran <?php echo $single_artikel['link_dokumen']?></a>
+                                </center><br />
+                              </div>
+                        		<?php endif; ?>
+                        		<?php if($single_artikel['gambar1']!='' and is_file(LOKASI_FOTO_ARTIKEL."sedang_".$single_artikel['gambar1'])): ?>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="<?php echo AmbilFotoArtikel($single_artikel['gambar1'],'sedang')?>" alt="image">
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title" style="color:#444;font-size:small;">Gambar Tambahan 1 <i class="material-icons right" style="color:#444;">&#xE5CD;</i></span>
+                                    <a href="<?php echo AmbilFotoArtikel($single_artikel['gambar1'],'sedang')?>" target="_blank" class="readmore">Lihat Gambar</a>
+                                  </div>
+                                </div><!-- /.card -->
+                              </div>
+                        		<?php endif; ?>
+                        		<?php if($single_artikel['gambar2']!='' and is_file(LOKASI_FOTO_ARTIKEL."sedang_".$single_artikel['gambar2'])): ?>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="<?php echo AmbilFotoArtikel($single_artikel['gambar2'],'sedang')?>" alt="image">
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title" style="color:#444;font-size:small;">Gambar Tambahan 2 <i class="material-icons right" style="color:#444;">&#xE5CD;</i></span>
+                                    <a href="<?php echo AmbilFotoArtikel($single_artikel['gambar2'],'sedang')?>" target="_blank" class="readmore">Lihat Gambar</a>
+                                  </div>
+                                </div><!-- /.card -->
+                              </div>
+                        		<?php endif; ?>
+                        		<?php if($single_artikel['gambar3']!='' and is_file(LOKASI_FOTO_ARTIKEL."sedang_".$single_artikel['gambar3'])): ?>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="<?php echo AmbilFotoArtikel($single_artikel['gambar3'],'sedang')?>" alt="image">
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title" style="color:#444;font-size:small;">Gambar Tambahan 3 <i class="material-icons right" style="color:#444;">&#xE5CD;</i></span>
+                                    <a href="<?php echo AmbilFotoArtikel($single_artikel['gambar3'],'sedang')?>" target="_blank" class="readmore">Lihat Gambar</a>
+                                  </div>
+                                </div><!-- /.card -->
+                              </div>
+                        		<?php endif; ?>
+                            </div>
+                          </div><!-- .entry-content -->
+
+                        </article>      
 
                         <!-- <nav class="single-post-navigation" role="navigation">
                           <div class="row">
