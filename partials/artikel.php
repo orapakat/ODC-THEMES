@@ -197,6 +197,14 @@
                                             <input type="text" placeholder="masukkan nama anda" class="form-control" id="author" name="owner" maxlength="30" value="<?php echo !empty($_SESSION['post']['owner']) ? $_SESSION['post']['owner'] : $_SESSION['nama'] ?>" required>
                                           </div>
 
+
+
+                                    <div class="col-sm-6 comment-form-email">
+                                            <input  type="text" placeholder="masukkan nomor hp" class="form-control" name="no_hp"<?php echo $_SESSION['post']['no_hp'] ?>" required>
+                                          </div>
+
+
+
                                           <div class="col-sm-6 comment-form-email">
                                             <input id="email" type="email" placeholder="masukkan email" class="form-control" name="email" maxlength="30" value="<?php echo $_SESSION['post']['email'] ?>" required>
                                           </div>
