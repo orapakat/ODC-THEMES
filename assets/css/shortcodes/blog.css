@@ -1,6 +1,16 @@
 /* ----------------------------------------------------------------
 Standard blog
 -----------------------------------------------------------------*/
+
+ul {
+    list-style: square;
+    margin: 0;
+    margin-left: 40px;
+    padding: 0px;
+ }
+ 
+
+
 .post-wrapper {
 	padding: 16px;
 	border: 1px solid #eee;
